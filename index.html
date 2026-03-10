@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de CEP</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="conteudo">
+        <h1>API para consulta de CEP</h1>
+
+        <input oninput="buscar(event)" id="cep" type="text" maxlength="8" placeholder="Informe o CEP" class="cep">
+
+        <!-- info -->
+        <div id="tabela" class="lista oculto">
+            <div class="linha">
+                <p class="label">Rua:</p>
+                <p id="rua">Aguardando CEP</p>
+
+            </div>
+
+            <div class="linha">
+                <p class="label">Bairro:</p>
+                <p id="bairro">Aguardando CEP</p>
+
+            </div>
+
+            <div class="linha">
+                <p class="label">Cidade:</p>
+                <p id="cidade">Aguardando CEP</p>
+
+            </div>
+
+            <div class="linha">
+                <p class="label">Estado:</p>
+                <p id="estado">Aguardando CEP</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
