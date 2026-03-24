@@ -1,8 +1,8 @@
-# Previsão do Tempo 7 Dias - Node.js
+# 🌦️ Previsão do Tempo 7 Dias - Node.js
 
 Este projeto é uma ferramenta em Node.js que consulta a previsão do tempo para os próximos 7 dias de qualquer cidade informada. Ele utiliza integração entre duas APIs distintas para transformar o nome de uma cidade em coordenadas geográficas e, em seguida, obter os dados meteorológicos.
 
-## Como o Projeto Funciona
+## 🚀 Como o Projeto Funciona
 
 O fluxo de execução do script segue três etapas principais:
 
@@ -12,7 +12,7 @@ O fluxo de execução do script segue três etapas principais:
 
 ---
 
-## Tecnologias e APIs Utilizadas
+## 🛠️ Tecnologias e APIs Utilizadas
 
 | Componente | Tecnologia/Serviço | Finalidade |
 | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ O fluxo de execução do script segue três etapas principais:
 
 ---
 
-## Consumo das APIs
+## 📡 Consumo das APIs
 
 ### 1. Busca de Coordenadas (Nominatim)
 A função `findCity(city)` realiza uma requisição `GET` para o endpoint:
@@ -43,7 +43,7 @@ A função `getPrevisao7Dias(city)` utiliza as coordenadas para consultar:
 
 ---
 
-## Observações de Segurança e Ambiente
+## ⚠️ Observações de Segurança e Ambiente
 
 O projeto contém as seguintes configurações globais:
 
@@ -52,7 +52,7 @@ O projeto contém as seguintes configurações globais:
 
 ---
 
-## Como Executar
+## 📦 Como Executar
 
 1. Certifique-se de ter o **Node.js** instalado (versão 18 ou superior, que já possui a função `fetch` nativa).
 2. Clone o repositório.
