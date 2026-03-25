@@ -58,7 +58,7 @@ O projeto contém as seguintes configurações globais:
 2. Clone o repositório.
 3. Execute o arquivo principal:
    ```bash
-   node seu_arquivo.js
+   node index
    ```
 
 ---
