@@ -33,13 +33,13 @@ A função `findCity(city)` realiza uma requisição `GET` para o endpoint:
 
 ### 2. Previsão do Tempo (Open-Meteo)
 A função `getPrevisao7Dias(city)` utiliza as coordenadas para consultar:
-`https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily=temperature_2m_max,uv_index_max,weathercode,relative_humidity_2m_max&timezone=America%2FSao_Paulo`
+`https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily=temperature_2m_max,uv_index_max,weathercode,relative_humidity_2m_mean&timezone=America%2FSao_Paulo`
 
 **Parâmetros solicitados:**
 * `temperature_2m_max`: Temperatura máxima prevista.
 * `uv_index_max`: Índice ultravioleta máximo do dia.
 * `weathercode`: Código numérico que representa a condição do tempo (WMO).
-* `relative_humidity_2m_max`: Umidade relativa máxima do ar.
+* `relative_humidity_2m_mean`: Umidade relativa média do ar.
 
 ---
 
